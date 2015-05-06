@@ -27,7 +27,7 @@ body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
 	font-weight: 500;
 }
 
-
+/*
 ::selection { background-color: #82b965; }
 ::-moz-selection { background-color: #82b965; }
 
@@ -103,6 +103,7 @@ a,
 				
 .site-title a img { max-height: 40px; }
 
+*/
 
 /* Global */
 .mystyle {}
