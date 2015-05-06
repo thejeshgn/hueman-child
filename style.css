@@ -18,10 +18,13 @@ body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
 
 .site-description {
 	line-height: 10px; 
+	margin-left: 0px;
 }
 
 .site-title {
 	line-height: 10px;
+	font-size: 35px;
+	font-weight: 500;
 }
 
 
