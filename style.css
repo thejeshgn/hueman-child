@@ -13,6 +13,7 @@
 /* ------------------------------------------------------------------------- *
  *  Theme customization starts here
 /* ------------------------------------------------------------------------- */
+body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
 
 /* Global */
 .mystyle {}
