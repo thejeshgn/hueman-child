@@ -29,9 +29,11 @@ body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
 
 .entry table {
   text-align: left;
+  font-size: 18px;
 }
 .entry table td {
- text-align: left;	
+ text-align: left;
+ font-size: 18px;
 }
 
 /*
