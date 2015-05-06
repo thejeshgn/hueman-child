@@ -27,6 +27,14 @@ body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
 	font-weight: 500;
 }
 
+.entry table {
+  font-size: 14px;
+  margin-bottom: 1.5em;
+  width: 100%;
+  text-align: left;
+}
+
+
 /*
 ::selection { background-color: #82b965; }
 ::-moz-selection { background-color: #82b965; }
