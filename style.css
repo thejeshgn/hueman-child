@@ -15,9 +15,12 @@
 /* ------------------------------------------------------------------------- */
 body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
 
+.post-list .post, .post-list .page {
+	width:100%;
+}
 #header .pad {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
 }
 
 .site-description {
