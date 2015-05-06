@@ -19,7 +19,7 @@ body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
 .site-description {
 	line-height: 10px; 
 	margin-left: 0px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .site-title {
