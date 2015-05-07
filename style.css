@@ -44,6 +44,16 @@ body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
  font-size: 18px;
 }
 
+
+#nav-header .container {
+  background-color: #82b965;
+}
+
+.s2 .sidebar-top, .s2 .sidebar-toggle {
+  background: #3b8dbd;
+}
+
+
 /*
 ::selection { background-color: #82b965; }
 ::-moz-selection { background-color: #82b965; }
