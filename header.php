@@ -11,7 +11,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-
+<a class="anchor" id="top_first_anchor"></a>
 <div id="wrapper">
 
 	<header id="header">
