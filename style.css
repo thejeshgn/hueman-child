@@ -46,6 +46,10 @@ body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
  font-size: 18px;
 }
 
+.widget a {
+  color: #3b8dbd;
+}
+
 /*
 #nav-header .container {
   background-color: #82b965;
