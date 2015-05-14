@@ -52,6 +52,11 @@ body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
 
 .entry h1 span, .entry h2 span, .entry h3 span, .entry h4 span, .entry h5 span, .entry h6 span { color: #444; }
 
+entry table th {
+  text-align: left;
+}
+
+
 /*
 #nav-header .container {
   background-color: #82b965;
