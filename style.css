@@ -37,6 +37,9 @@ body { font-family: "Noto Sans",'Noto Sans Kannada', Arial, sans-serif; }
 	font-size: 35px;
 	font-weight: 500;
 }
+.entry {
+  font-size: 16px;
+}
 
 .entry table {
   text-align: left;
