@@ -7,13 +7,13 @@
 	Template: hueman
 	Version: 1.0.0
 */
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300italic,300,400italic,600&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,latin-ext);
 @import url("../hueman/style.css");
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskannada.css);
 /* ------------------------------------------------------------------------- *
  *  Theme customization starts here
 /* ------------------------------------------------------------------------- */
-body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
+body { font-family: "Noto Sans",'Noto Sans Kannada', Arial, sans-serif; }
 
 /*a.anchor_top{display: block; position: relative; top: -50px; visibility: hidden;}*/
 
@@ -26,7 +26,8 @@ body { font-family: "Source Sans Pro",'Noto Sans Kannada', Arial, sans-serif; }
 }
 
 .site-description {
-	line-height: 10px; 
+	line-height: 15px; 
+	font-size: 14px;
 	margin-left: 0px;
 	/*text-transform: uppercase;*/
 }
