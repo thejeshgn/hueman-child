@@ -30,6 +30,7 @@ body { font-family: "Noto Sans",'Noto Sans Kannada', Arial, sans-serif; }
 	font-size: 14px;
 	margin-left: 0px;
 	/*text-transform: uppercase;*/
+	float: none; 
 }
 
 .site-title {
