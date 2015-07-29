@@ -17,6 +17,7 @@
 				
 			</article>
 			<div class="pagelink"><?php wp_link_pages('pagelink=Page %'); ?></div>
+                        <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
 			<?php if ( ot_get_option('page-comments') == 'on' ) { comments_template('/comments.php',true); } ?>
 			
 		<?php endwhile; ?>
