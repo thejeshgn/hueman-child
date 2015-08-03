@@ -1,7 +1,12 @@
 <?php get_header(); ?>
 
 <section class="content">
-	
+	<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
+    		<?php if(function_exists('bcn_display'))
+    		{
+        		bcn_display();
+    		}?>
+        </div>
 	<?php get_template_part('inc/page-title'); ?>
 	
 	<div class="pad group">
