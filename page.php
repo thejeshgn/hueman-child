@@ -1,11 +1,13 @@
 <?php get_header(); ?>
 
 <section class="content">
-	<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
-    		<?php if(function_exists('bcn_display'))
-    		{
-        		bcn_display();
-    		}?>
+	<div class="page-title pad group">
+		<div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
+	    		<?php if(function_exists('bcn_display'))
+	    		{
+	        		bcn_display();
+	    		}?>
+	        </div>
         </div>
 	<?php get_template_part('inc/page-title'); ?>
 	
