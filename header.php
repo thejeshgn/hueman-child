@@ -8,6 +8,9 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	
 	<?php wp_head(); ?>
+	<link rel="stylesheet" id="style-css"  href="https://thejeshgn.com/blog/wp-content/themes/hueman-child/chartist.min.css" type="text/css" media="all" />
+	<script src="https://thejeshgn.com/blog/wp-content/themes/hueman-child/chartist.min.js"></script>
+
 </head>
 
 <body <?php body_class(); ?>>
