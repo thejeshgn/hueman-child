@@ -99,5 +99,24 @@
 </div><!--/#wrapper-->
 
 <?php wp_footer(); ?>
+<!-- Start of my new code to add all the scripts defined in the page -->
+<?php
+$values = get_field('scripts');
+$my_theme = wp_get_theme();
+$my_theme_version = $my_theme->get( 'Version' );
+if($values)
+{
+	foreach($values as $value)
+	{
+		echo "<script type='text/javascript' src='" . $value . "?".$my_theme_version."'></script>\n";
+	}
+
+	echo "<script type='text/javascript'>
+		jQuery(document).ready(function($){
+		});
+	</script>";
+}
+?>
+<!-- End of my new code to add all the scripts defined in the page -->
 </body>
 </html>
