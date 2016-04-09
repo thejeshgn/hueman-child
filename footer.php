@@ -105,8 +105,8 @@ $my_theme = wp_get_theme();
 $my_theme_version = $my_theme->get( 'Version' );
 
 if(have_rows('script_libraries')):
-	 while ( have_rows('scripts') ) : the_row();
-		echo "<script type='text/javascript' src='" . the_sub_field('scripts') . "?".$my_theme_version."'></script>\n";
+	 while ( have_rows('script_libraries') ) : the_row();
+		echo "<script type='text/javascript' src='" . get_sub_field('script_lib') . "?".$my_theme_version."'></script>\n";
 	 endwhile;		
 else :
     // no library scripts

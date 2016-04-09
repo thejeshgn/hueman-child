@@ -14,8 +14,8 @@
 		$my_theme_version = $my_theme->get( 'Version' );
 
 		if(have_rows('script_styles')):
-			 while ( have_rows('styles') ) : the_row();
-				echo "<link rel='stylesheet'  href='" . the_sub_field('styles') . "?".$my_theme_version."'/>\n";
+			 while ( have_rows('script_styles') ) : the_row();
+				echo "<link rel='stylesheet'  href='" . get_sub_field('lib_style') . "?".$my_theme_version."'/>\n";
 			 endwhile;		
 		else :
 		    // no library styles
