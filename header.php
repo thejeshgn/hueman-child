@@ -10,12 +10,9 @@
 	<?php wp_head(); ?>
 	<!-- Start of my new code to add all the styles defined in the page -->
 	<?php
-		$my_theme = wp_get_theme();
-		$my_theme_version = $my_theme->get( 'Version' );
-
 		if(have_rows('script_styles')):
 			 while ( have_rows('script_styles') ) : the_row();
-				echo "<link rel='stylesheet'  href='" . get_sub_field('lib_style') . "?".$my_theme_version."'/>\n";
+				echo "<link rel='stylesheet'  href='" . get_sub_field('lib_style') . "'/>\n";
 			 endwhile;		
 		else :
 		    // no library styles
