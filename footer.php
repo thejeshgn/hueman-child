@@ -101,8 +101,6 @@
 <?php wp_footer(); ?>
 <!-- Start of my new code to add all the scripts defined in the page -->
 <?php
-$my_theme = wp_get_theme();
-$my_theme_version = $my_theme->get( 'Version' );
 
 if(have_rows('script_libraries')):
 	 while ( have_rows('script_libraries') ) : the_row();
@@ -115,7 +113,7 @@ endif;
 $page_specific_script = get_field('page_specific_script');
 if($page_specific_script)
 {
-	echo "<script type='text/javascript' src='" . $page_specific_script . "?".$my_theme_version."'></script>\n";	
+	echo "<script type='text/javascript' src='" . $page_specific_script . "'></script>\n";	
 }
 ?>
 <!-- End of my new code to add all the scripts defined in the page -->
