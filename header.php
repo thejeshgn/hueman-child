@@ -8,6 +8,21 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	
 	<?php wp_head(); ?>
+	<!-- Start of my new code to add all the styles defined in the page -->
+	<?php
+		$my_theme = wp_get_theme();
+		$my_theme_version = $my_theme->get( 'Version' );
+
+		if(have_rows('script_styles')):
+			 while ( have_rows('styles') ) : the_row();
+				echo "<link rel='stylesheet'  href='" . the_sub_field('styles') . "?".$my_theme_version."'/>\n";
+			 endwhile;		
+		else :
+		    // no library styles
+		endif;
+	?>
+	<!-- End of my new code to add all the styles defined in the page -->
+
 </head>
 
 <body <?php body_class(); ?>>

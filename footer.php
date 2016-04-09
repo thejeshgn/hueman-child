@@ -101,20 +101,21 @@
 <?php wp_footer(); ?>
 <!-- Start of my new code to add all the scripts defined in the page -->
 <?php
-$values = get_field('scripts');
 $my_theme = wp_get_theme();
 $my_theme_version = $my_theme->get( 'Version' );
-if($values)
-{
-	foreach($values as $value)
-	{
-		echo "<script type='text/javascript' src='" . $value . "?".$my_theme_version."'></script>\n";
-	}
 
-	echo "<script type='text/javascript'>
-		jQuery(document).ready(function($){
-		});
-	</script>";
+if(have_rows('script_libraries')):
+	 while ( have_rows('scripts') ) : the_row();
+		echo "<script type='text/javascript' src='" . the_sub_field('scripts') . "?".$my_theme_version."'></script>\n";
+	 endwhile;		
+else :
+    // no library scripts
+endif;
+
+$page_specific_script = get_field('page_specific_script');
+if($page_specific_script)
+{
+	echo "<script type='text/javascript' src='" . $page_specific_script . "?".$my_theme_version."'></script>\n";	
 }
 ?>
 <!-- End of my new code to add all the scripts defined in the page -->
