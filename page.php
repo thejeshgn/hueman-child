@@ -7,7 +7,7 @@
         		bcn_display();
     		}?>
         </div>
-	<?php get_template_part('inc/page-title'); ?>
+	<?php get_template_part('parts/page-title'); ?>
 	
 	<div class="pad group">
 		
@@ -23,7 +23,7 @@
 			</article>
 			<div class="pagelink"><?php wp_link_pages('pagelink=Page %'); ?></div>
                         <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
-			<?php if ( ot_get_option('page-comments') == 'on' ) { comments_template('/comments.php',true); } ?>
+			<?php if ( hu_is_checked('page-comments') ) { comments_template('/comments.php',true); } ?>
 			
 		<?php endwhile; ?>
 		
