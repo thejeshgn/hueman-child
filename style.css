@@ -117,6 +117,11 @@ body { font-family: "Noto Sans",'Noto Sans Kannada', Arial, sans-serif; }
 
 }
 
+.col-2cl .main-inner {
+    padding-right: 0 !important;
+	background-color: #fff !important;
+}
+
 section.content {
     background-color: white !important;
 }
