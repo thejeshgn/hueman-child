@@ -13,7 +13,7 @@
 /* ------------------------------------------------------------------------- *
  *  Theme customization starts here
 /* ------------------------------------------------------------------------- */
-body { font-family: "Noto Sans",'Noto Sans Kannada', Arial, sans-serif; }
+body { font-family: "Noto Sans",'Noto Sans Kannada', Arial, sans-serif; color: #333;}
 
 .post-list .post, .post-list .page {
 	width:100%;
