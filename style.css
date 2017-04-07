@@ -23,6 +23,10 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     font-family: "Noto Sans",'Noto Sans Kannada', Arial, sans-serif;
 }
 
+a, .themeform label .required, #flexslider-featured .flex-direction-nav .flex-next:hover, #flexslider-featured .flex-direction-nav .flex-prev:hover, .post-hover:hover .post-title a, .post-title a:hover, .s1 .post-nav li a:hover i, .content .post-nav li a:hover i, .post-related a:hover, .s1 .widget_rss ul li a, #footer .widget_rss ul li a, .s1 .widget_calendar a, #footer .widget_calendar a, .s1 .alx-tab .tab-item-category a, .s1 .alx-posts .post-item-category a, .s1 .alx-tab li:hover .tab-item-title a, .s1 .alx-tab li:hover .tab-item-comment a, .s1 .alx-posts li:hover .post-item-title a, #footer .alx-tab .tab-item-category a, #footer .alx-posts .post-item-category a, #footer .alx-tab li:hover .tab-item-title a, #footer .alx-tab li:hover .tab-item-comment a, #footer .alx-posts li:hover .post-item-title a, .comment-tabs li.active a, .comment-awaiting-moderation, .child-menu a:hover, .child-menu .current_page_item > a, .wp-pagenavi a {
+    color: #3b8dbd;
+}
+
 .post-list .post, .post-list .page {
 	width:100%;
 }
