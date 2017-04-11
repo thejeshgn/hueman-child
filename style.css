@@ -30,16 +30,12 @@ a, .themeform label .required, #flexslider-featured .flex-direction-nav .flex-ne
 .post-list .post, .post-list .page {
 	width:100%;
 }
-#header .pad {
-  	padding-top: 30px;
-  	padding-bottom: 10px;
-}
+
 
 .site-description {
 	line-height: 15px; 
 	font-size: 14px;
 	margin-left: 0px;
-	/*text-transform: uppercase;*/
 	float: none; 
 }
 
@@ -76,14 +72,6 @@ a, .themeform label .required, #flexslider-featured .flex-direction-nav .flex-ne
 
 .entry table th {
   text-align: left;
-}
-
-.full-width.topbar-enabled #header {
-  padding-top: 0px;
-}
-
-.full-width #nav-topbar.nav-container {
-  position: relative;
 }
 
 .breadcrumbs{
