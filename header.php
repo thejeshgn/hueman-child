@@ -7,6 +7,18 @@
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
   <?php wp_head(); ?>
+  <!-- Start of my new code to add all the styles defined in the page -->
+  <?php
+    if(function_exists('have_rows') && have_rows('script_styles')):
+       while ( have_rows('script_styles') ) : the_row();
+        echo "<link rel='stylesheet'  href='" . get_sub_field('lib_style') . "'/>\n";
+       endwhile;    
+    else :
+        // no library styles
+    endif;
+  ?>
+  <!-- End of my new code to add all the styles defined in the page -->
+
 </head>
 
 <body <?php body_class(); ?>>
