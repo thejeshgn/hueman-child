@@ -11,7 +11,7 @@
   <?php
     if(function_exists('have_rows') && have_rows('script_styles')):
        while ( have_rows('script_styles') ) : the_row();
-        echo "<link rel='stylesheet'  href='" . get_sub_field('lib_style') . "'/>\n";
+        echo "<link rel='stylesheet'  href='" .THEJESHGN_LIB_FILES. get_sub_field('lib_style') . "'/>\n";
        endwhile;    
     else :
         // no library styles

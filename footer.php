@@ -104,7 +104,7 @@
 
 if(have_rows('script_libraries')):
 	 while ( have_rows('script_libraries') ) : the_row();
-		echo "<script type='text/javascript' src='" . get_sub_field('script_lib') . "'></script>\n";
+		echo "<script type='text/javascript' src='".THEJESHGN_LIB_FILES . get_sub_field('script_lib') . "'></script>\n";
 	 endwhile;		
 else :
     // no library scripts
@@ -113,7 +113,7 @@ endif;
 $page_specific_script = get_field('page_specific_script');
 if($page_specific_script)
 {
-	echo "<script type='text/javascript' src='" . $page_specific_script . "'></script>\n";	
+	echo "<script type='text/javascript' src='" .THEJESHGN_LIB_FILES. $page_specific_script . "'></script>\n";	
 }
 ?>
 <!-- End of my new code to add all the scripts defined in the page -->

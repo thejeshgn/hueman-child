@@ -3,6 +3,8 @@
  *  Custom functions
 /* ------------------------------------------------------------------------- */
 
+define("THEJESHGN_LIB_FILES", "https://lib.thejeshgn.in");
+
 function my_theme_enqueue_styles() {
 
     $parent_style = 'parent-style'; // This is 'twentyfifteen-style' for the Twenty Fifteen theme.
