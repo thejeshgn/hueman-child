@@ -102,6 +102,8 @@
 <!-- Start of my new code to add all the scripts defined in the page -->
 <?php
 
+echo "<script type='text/javascript'> \n var THEJESHGN_LIB_FILES='".THEJESHGN_LIB_FILES."'; \n var THEJESHGN_DATA_DB='".THEJESHGN_DATA_DB."';\n</script>\n";
+
 if(have_rows('script_libraries')):
 	 while ( have_rows('script_libraries') ) : the_row();
 		echo "<script type='text/javascript' src='".THEJESHGN_LIB_FILES . get_sub_field('script_lib') . "'></script>\n";
