@@ -3,7 +3,7 @@
  *  Custom functions
 /* ------------------------------------------------------------------------- */
 
-define("THEJESHGN_LIB_FILES", "https://lib.thejeshgn.in");
+define("THEJESHGN_LIB_FILES", "https://lib.thejeshgn.com");
 define("THEJESHGN_DATA_DB", "https://thejeshgn.cloudant.com");
 
 function my_theme_enqueue_styles() {
